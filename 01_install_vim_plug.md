@@ -304,3 +304,12 @@
     :InstantMarkdownPreview
     :InstantMarkdownStop
     ```
+
+* [auto-pairs](https://github.com/jiangmiao/auto-pairs/)
+
+    install
+
+    ``` vim
+    " auto-pairs
+    Plug 'jiangmiao/auto-pairs'
+    ```
