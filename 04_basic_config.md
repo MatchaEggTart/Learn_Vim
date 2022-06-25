@@ -1,6 +1,6 @@
 # [vim无插件配置](https://zhuanlan.zhihu.com/p/532430825)
 
-转至 https://zhuanlan.zhihu.com/p/532430825\
+转至 [vim无插件配置](https://zhuanlan.zhihu.com/p/532430825)\
 谢谢 [棱角破茧](https://www.zhihu.com/people/shan-ye-cao-ren-50)
 
 ``` vim
