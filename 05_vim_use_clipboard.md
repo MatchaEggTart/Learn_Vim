@@ -6,7 +6,8 @@
   >[linux版的vim中如何用快捷键进行与系统剪切板交互的复制粘贴？ - 刚刚的回答 - 知乎](
 https://www.zhihu.com/question/21203154/answer/56618821)\
   >[一文搞懂vim复制粘贴](https://liushiming.cn/article/copy-and-paste-in-vim.html)\
-  >[跨越终端中多个vim实例访问剪切板内容](https://developer.aliyun.com/article/81672)
+  >[跨越终端中多个vim实例访问剪切板内容](https://developer.aliyun.com/article/81672)\
+  >感谢！
 
 ## 安装 gvim 和 xsel
 
