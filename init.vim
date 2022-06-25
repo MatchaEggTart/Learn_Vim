@@ -107,7 +107,7 @@ set autoread            " 文件自动检测外部更改
 set ambiwidth=double    " 解决中文标点显示的问题
 set vb t_vb=            " 消除‘嘟嘟’的警报声
 set nowrap              " 不自动折行
-set mouse=a             " 使用鼠标
+" set mouse=a             " 使用鼠标
 syntax on               " 语法高亮
 filetype on             " 开启文件类型检测
 
@@ -115,3 +115,4 @@ filetype on             " 开启文件类型检测
 set cursorline          " 高亮显示当前行
 set ruler               " 显示标尺，在右下角显示光标位置
 
+set clipboard=unnamed   " Vim 与系统剪切板共享
