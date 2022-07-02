@@ -356,7 +356,7 @@
     install
 
     ``` vim
-    "vim-jsx-pretty
+    " vim-jsx-pretty
     Plug 'yuezk/vim-js'
     Plug 'MaxMEllon/vim-jsx-pretty'
     ```
