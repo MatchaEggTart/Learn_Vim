@@ -71,6 +71,10 @@ Plug 'preservim/vim-markdown'
 " auto-pairs
 Plug 'jiangmiao/auto-pairs'
 
+"vim-jsx-pretty
+Plug 'yuezk/vim-js'
+Plug 'MaxMEllon/vim-jsx-pretty'
+
 
 " Initialize plugin system
 call plug#end()
@@ -88,6 +92,9 @@ nnoremap <C-f> :NERDTreeFind<CR>
 " easymotion
 " search by 2 char
 map ss <Plug>(easymotion-s2)
+
+" vim-instant-markdown
+" filetype plugin on
 
 set encoding=utf-8                  " 编码设置
 set number                          " 显示行号

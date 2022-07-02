@@ -289,13 +289,50 @@
     > zc: close a fold your cursor is on\
     > zC: close a fold your cursor is on recursively
 
+    usage 中文
+    > zr: 打开下一级折叠\
+    > zR: 打开所有折叠\
+    > zm: 关闭下一级折叠\
+    > zM: 关闭所有折叠\
+    > za: 打开光标的下一级折叠\
+    > zA: 打开光标下的所有折叠\
+    > zc: 关闭光标的下一级折叠\
+    > zC: 关闭光标下的所有折叠
+
 * [vim-instant-markdown](https://github.com/instant-markdown/vim-instant-markdown)
 
     install
 
+    ``` shell
+    sudo dnf install nodejs -y
+    sudo npm install -g yarn -y
+    node -v
+    yarn -v
+    sudo npm -g install instant-markdown-d
+    ```
+
     ``` vim
     " vim-instant-markdown
     Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+    ```
+
+    configure
+
+    ``` vim
+    " vim-instant-markdown
+    filetype plugin on
+    "Uncomment to override defaults:
+    "let g:instant_markdown_slow = 1
+    "let g:instant_markdown_autostart = 0
+    "let g:instant_markdown_open_to_the_world = 1
+    "let g:instant_markdown_allow_unsafe_content = 1
+    "let g:instant_markdown_allow_external_content = 0
+    "let g:instant_markdown_mathjax = 1
+    "let g:instant_markdown_mermaid = 1
+    "let g:instant_markdown_logfile = '/tmp/instant_markdown.log'
+    "let g:instant_markdown_autoscroll = 0
+    "let g:instant_markdown_port = 8888
+    "let g:instant_markdown_python = 1
     ```
 
     usage
@@ -312,4 +349,14 @@
     ``` vim
     " auto-pairs
     Plug 'jiangmiao/auto-pairs'
+    ```
+
+* [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
+
+    install
+
+    ``` vim
+    "vim-jsx-pretty
+    Plug 'yuezk/vim-js'
+    Plug 'MaxMEllon/vim-jsx-pretty'
     ```
