@@ -360,3 +360,36 @@
     Plug 'yuezk/vim-js'
     Plug 'MaxMEllon/vim-jsx-pretty'
     ```
+
+* [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript)
+
+    install
+
+    ``` vim
+    " vim-javascript
+    Plug 'pangloss/vim-javascript'
+    ```
+
+* [AndrewRadev/tagalong.vim](https://github.com/AndrewRadev/tagalong.vim)
+
+    install
+
+    ``` vim
+    " tagalong.vim
+    Plug 'AndrewRadev/tagalong.vim'
+    ```
+
+* [mattn/emmet-vim](https://github.com/mattn/emmet-vim)
+
+    install
+
+    ``` vim
+    " emmet-vim
+    Plug 'mattn/emmet-vim'
+    ```
+
+    usage
+
+    ``` html
+    html:5 <CTRL>+y <,>
+    ```
