@@ -107,6 +107,8 @@
     nnoremap <c-f> :nerdtreefind<cr>
     ```
 
+    [VIM插件：目录导航与操作插件NERDTree的使用方法](https://blog.csdn.net/weixin_37926734/article/details/124919260)
+
 * [ctrlp](https://github.com/kien/ctrlp.vim)
 
     install
@@ -239,6 +241,7 @@
 
     ``` vim
     gc " commentary
+    gcc " 注释当前行
     ```
 
 * [vim-fugitive](https://github.com/tpope/vim-fugitive)
