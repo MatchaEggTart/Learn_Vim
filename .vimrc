@@ -3,8 +3,8 @@ set number                          " 显示行号
 set smartindent                     " 智能缩进
 set autoindent                      " 自动对齐
 set smarttab            
-set tabstop=4                       " tab缩进
-set shiftwidth=4                    " 设定自动缩进为4个字符
+set tabstop=2                       " tab缩进
+set shiftwidth=2                    " 设定自动缩进为4个字符
 set expandtab                       " 用space替代tab的输入
 
 " set splitright                    " 设置左右分割窗口时，新窗口出现在右侧
