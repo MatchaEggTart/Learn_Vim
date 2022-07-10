@@ -116,7 +116,8 @@ vim.o.showtabline = 2
 vim.o.showmode = false
 
 -- * 和 + 剪切板都与系统剪切板共享
--- vim.cmd(clipboard^=unnamed,unnamedplus)
+-- vim.o.clipboard^="unnamed,unnamedplus"
+vim.o.clipboard="unnamed,unnamedplus"
 
 -- " 使用 xsel 操作剪切板
 -- vim.cmd(autocmd VimLeave * call system("echo -n $'" . escape(getreg(), "'") . "' | xsel -ib"))
