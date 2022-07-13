@@ -33,7 +33,7 @@
     ``` sh
     alias vim='nvim'
     alias vi='nvim'
-    alias v='nvim'
+    alias nv='nvim'
     ```
 
 ## 基础配置
@@ -1164,6 +1164,15 @@ require("plugin-config.bufferline")
     use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
     ```
   
+  * TSInstall 功能丢失
+
+    ``` sh
+    sudo npm install -g tree-sitter-cli
+
+    # 需要安装 rust
+    cargo install tree-sitter-cli
+    ```
+
 * 安装 Language parser
 
   * 查看 语法库 状态 指令

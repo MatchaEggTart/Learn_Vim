@@ -12,3 +12,6 @@ sudo dnf install fd-find -y
 # nvim-treesitter 语法高亮
 sudo dnf install gcc-c++ -y
 sudo dnf install nodejs -y
+
+# nvim-treesitter 的 TSInstall 功能
+sudo npm install -g tree-sitter-cli
