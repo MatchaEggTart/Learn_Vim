@@ -12,7 +12,7 @@
 
   * 指令
 
-    ``` shell
+    ``` sh
     sudo dnf install vim vim-X11 xsel -y
     ```
 
@@ -24,13 +24,13 @@
 
   * 指令
 
-    ``` shell
+    ``` sh
     sudo dnf install neovim -y
     ```
 
   * 修改 bash，让 nvim 代替 vim，打开 ~/.bashrc 或者 ~/.zshrc， 在末尾添加
 
-    ``` shell
+    ``` sh
     alias vim='nvim'
     alias vi='nvim'
     alias v='nvim'
@@ -44,7 +44,7 @@
 
 * 首先创建配置文件
 
-  ``` shell
+  ``` sh
   mkdir -p ~/.config/nvim/lua
   ```
 
@@ -359,7 +359,7 @@
 
   * 指令
 
-    ``` shell
+    ``` sh
     git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
     ```
 
@@ -841,7 +841,7 @@ require("plugin-config.bufferline")
 
   * ripgrep
 
-    ``` shell
+    ``` sh
     sudo dnf install ripgrep -y
     ```
 
