@@ -1796,7 +1796,7 @@ use("lukas-reineke/indent-blankline.nvim")
 
     ``` lua
     -- lspsaga
-  use("tami5/lspsaga.nvim" )
+    use("tami5/lspsaga.nvim" )
     ```
 
 * 修改 ui.lua
