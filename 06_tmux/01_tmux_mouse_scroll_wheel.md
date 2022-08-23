@@ -6,5 +6,6 @@
     * 在 ~/.tmux.conf 添加
 
       ``` vim
+      # Scroll-Wheel
       set -g mouse on
       ```
