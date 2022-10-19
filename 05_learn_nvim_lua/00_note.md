@@ -1790,7 +1790,7 @@ use("lukas-reineke/indent-blankline.nvim")
 
 ## lspsaga.nvim
 
-* (lspsaga.nvim)[https://github.com/glepnir/lspsaga.nvim]
+* [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)
 
   * plugins.lua
 
