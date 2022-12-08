@@ -7,7 +7,7 @@ vim.g.maplocalleader = ","
 local map = vim.api.nvim_set_keymap
 local opt = { noremap = true, silent = true }
 
--- Map 健 保存退出
+---- Map 健 保存退出
 map("n", "<leader>w", ":w<CR>", opt)
 map("n", "<leader>wq", ":wqa!<CR>", opt)
 ---- 退出
