@@ -67,7 +67,8 @@ https://www.zhihu.com/question/21203154/answer/56618821)\
     ``` sh
     alias rm='rm -i'
     alias mv='mv -i'
-    alias vim='gvim -v'
+    # alias vim='gvim -v'
+    alias vim='vimx'
     ```
 
 ## 在 vimrc 或 init.vim 添加
