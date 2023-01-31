@@ -65,10 +65,13 @@ https://www.zhihu.com/question/21203154/answer/56618821)\
 * 添加 gvim 别名
 
     ``` sh
-    alias rm='rm -i'
-    alias mv='mv -i'
+    alias rm="rm -i"
+    alias mv="mv -i"
+
+    # Vim
     # alias vim='gvim -v'
-    alias vim='vimx'
+    alias vim="vimx"
+    alias nv="nvim"
     ```
 
 ## 在 vimrc 或 init.vim 添加
